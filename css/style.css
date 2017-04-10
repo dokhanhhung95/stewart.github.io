@@ -1,0 +1,140 @@
+
+body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+}
+.grey-background{
+    background-color: #f8f8f8;
+}
+hr{
+    width: 30px;
+    height: 1px;
+    color: #B3B3BB;
+    border: 
+}
+/*--------------------
+1. Navigation
+--------------------*/
+.brand-logo{
+    height: 40px;
+    margin: 5px 20px;
+
+}
+#navigation-menu {
+    background-color: rgba(255, 255, 255,0.8);
+	border-color: transparent;
+    width: device-width;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.nav-items {
+    margin: 0px;
+    float: right;
+    padding: 9px 45px;
+}
+
+.nav-contents {
+    display: inline;
+    float: left;
+    padding: 10px 10px 10px 10px;
+}
+#page-top #navigation-menu .nav-contents a{ 
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+#page-top #navigation-menu .nav-contents a:hover,#page-top #navigation-menu .nav-contents a:focus{
+    color: #fed136;
+}
+#page-top #navigation-menu .nav-contents a:visited{
+    text-decoration: underline;
+}
+
+/*--------------------
+2. About
+--------------------*/
+
+.overview {
+    margin: 0;
+    background-color: #000;
+    position: relative; 
+}
+#mega-scizor {
+    border: 1px solid;
+    margin: 0 50px;
+}
+.overview .intro-text .myself{
+    color: white;
+    text-align: center; 
+
+}
+.section-title h2{
+    text-align: center;
+    padding-top:30px;
+    color: #B3B3BB;
+    position: relative;
+    margin: 0;
+}
+.section-title p{
+    text-align: center;
+    margin-top: 20px;
+    color: #000;
+}
+.section-title h2:after{
+    content: " ";
+    left: 50%;
+    z-index: 1;
+    width: 60px;
+    bottom: -5px;
+    margin-left: -30px;
+    text-align: center;
+    position: absolute;
+    background: #B3B3BB;
+    height: 3px;
+}
+#information{
+    display: inline-block;
+}
+/*--------------------
+Back top button
+--------------------*/
+#back-top {
+	position: fixed;
+	z-index: 1000;
+	bottom: 40px;
+	right: 50px;
+}
+#back-top a {
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    font: 11px/100% Arial, Helvetica, sans-serif;
+    /*text-transform: uppercase;*/
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #A9A9B1;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+    position: relative;
+}
+#back-top a:hover {
+	background: #fed136;
+}
+#back-top b{
+    margin: 15px 15px 0 0;
+    font-size: 12px;
+    position: absolute;
+}
+#back-top a b:after{
+     content: "Back To Top";
+     text-align: center;
+}
